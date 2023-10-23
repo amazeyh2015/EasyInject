@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		569EA4E32ADFF9DE003FBB7B /* EasyInject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 569EA4DA2ADFF9DE003FBB7B /* EasyInject.framework */; };
+		569EA4E82ADFF9DE003FBB7B /* EasyInjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 569EA4E72ADFF9DE003FBB7B /* EasyInjectTests.m */; };
+		569EA4E92ADFF9DE003FBB7B /* EasyInject.h in Headers */ = {isa = PBXBuildFile; fileRef = 569EA4DD2ADFF9DE003FBB7B /* EasyInject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		569EA5042ADFFA3F003FBB7B /* EIJStrongStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 569EA4F32ADFFA3F003FBB7B /* EIJStrongStorage.m */; };
+		569EA5052ADFFA3F003FBB7B /* EIJServiceEntry.h in Headers */ = {isa = PBXBuildFile; fileRef = 569EA4F42ADFFA3F003FBB7B /* EIJServiceEntry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		569EA5062ADFFA3F003FBB7B /* EIJContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = 569EA4F52ADFFA3F003FBB7B /* EIJContainer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		569EA5072ADFFA3F003FBB7B /* EIJWeakStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = 569EA4F62ADFFA3F003FBB7B /* EIJWeakStorage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		569EA5082ADFFA3F003FBB7B /* EIJInstanceStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = 569EA4F72ADFFA3F003FBB7B /* EIJInstanceStorage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		569EA5092ADFFA3F003FBB7B /* EIJBlockInvoker.m in Sources */ = {isa = PBXBuildFile; fileRef = 569EA4F82ADFFA3F003FBB7B /* EIJBlockInvoker.m */; };
+		569EA50A2ADFFA3F003FBB7B /* EIJTransientStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = 569EA4F92ADFFA3F003FBB7B /* EIJTransientStorage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		569EA50B2ADFFA3F003FBB7B /* EIJServiceKey.h in Headers */ = {isa = PBXBuildFile; fileRef = 569EA4FA2ADFFA3F003FBB7B /* EIJServiceKey.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		569EA50C2ADFFA3F003FBB7B /* EIJStrongStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = 569EA4FB2ADFFA3F003FBB7B /* EIJStrongStorage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		569EA50D2ADFFA3F003FBB7B /* EIJRegister.h in Headers */ = {isa = PBXBuildFile; fileRef = 569EA4FC2ADFFA3F003FBB7B /* EIJRegister.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		569EA50E2ADFFA3F003FBB7B /* EIJWeakStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 569EA4FD2ADFFA3F003FBB7B /* EIJWeakStorage.m */; };
+		569EA50F2ADFFA3F003FBB7B /* EIJContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 569EA4FE2ADFFA3F003FBB7B /* EIJContainer.m */; };
+		569EA5102ADFFA3F003FBB7B /* EIJServiceEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 569EA4FF2ADFFA3F003FBB7B /* EIJServiceEntry.m */; };
+		569EA5112ADFFA3F003FBB7B /* EIJBlockInvoker.h in Headers */ = {isa = PBXBuildFile; fileRef = 569EA5002ADFFA3F003FBB7B /* EIJBlockInvoker.h */; };
+		569EA5122ADFFA3F003FBB7B /* EIJResolver.h in Headers */ = {isa = PBXBuildFile; fileRef = 569EA5012ADFFA3F003FBB7B /* EIJResolver.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		569EA5132ADFFA3F003FBB7B /* EIJServiceKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 569EA5022ADFFA3F003FBB7B /* EIJServiceKey.m */; };
+		569EA5142ADFFA3F003FBB7B /* EIJTransientStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 569EA5032ADFFA3F003FBB7B /* EIJTransientStorage.m */; };
+		569EA5172ADFFAF3003FBB7B /* TestClassA.m in Sources */ = {isa = PBXBuildFile; fileRef = 569EA5162ADFFAF3003FBB7B /* TestClassA.m */; };
+		569EA51A2ADFFAFF003FBB7B /* TestClassB.m in Sources */ = {isa = PBXBuildFile; fileRef = 569EA5192ADFFAFF003FBB7B /* TestClassB.m */; };
+		569EA51D2ADFFB0D003FBB7B /* TestClassC.m in Sources */ = {isa = PBXBuildFile; fileRef = 569EA51C2ADFFB0D003FBB7B /* TestClassC.m */; };
+		569EA5202ADFFB17003FBB7B /* TestClassD.m in Sources */ = {isa = PBXBuildFile; fileRef = 569EA51F2ADFFB17003FBB7B /* TestClassD.m */; };
+		569EA5232ADFFB20003FBB7B /* TestClassE.m in Sources */ = {isa = PBXBuildFile; fileRef = 569EA5222ADFFB20003FBB7B /* TestClassE.m */; };
+		569EA52B2AE676C2003FBB7B /* EIJSynchronizedResolver.h in Headers */ = {isa = PBXBuildFile; fileRef = 569EA5292AE676C2003FBB7B /* EIJSynchronizedResolver.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		569EA52C2AE676C2003FBB7B /* EIJSynchronizedResolver.m in Sources */ = {isa = PBXBuildFile; fileRef = 569EA52A2AE676C2003FBB7B /* EIJSynchronizedResolver.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		569EA4E42ADFF9DE003FBB7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 569EA4D12ADFF9DE003FBB7B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 569EA4D92ADFF9DE003FBB7B;
+			remoteInfo = EasyInject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		569EA4DA2ADFF9DE003FBB7B /* EasyInject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EasyInject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		569EA4DD2ADFF9DE003FBB7B /* EasyInject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EasyInject.h; sourceTree = "<group>"; };
+		569EA4E22ADFF9DE003FBB7B /* EasyInjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasyInjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		569EA4E72ADFF9DE003FBB7B /* EasyInjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EasyInjectTests.m; sourceTree = "<group>"; };
+		569EA4F32ADFFA3F003FBB7B /* EIJStrongStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EIJStrongStorage.m; sourceTree = "<group>"; };
+		569EA4F42ADFFA3F003FBB7B /* EIJServiceEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EIJServiceEntry.h; sourceTree = "<group>"; };
+		569EA4F52ADFFA3F003FBB7B /* EIJContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EIJContainer.h; sourceTree = "<group>"; };
+		569EA4F62ADFFA3F003FBB7B /* EIJWeakStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EIJWeakStorage.h; sourceTree = "<group>"; };
+		569EA4F72ADFFA3F003FBB7B /* EIJInstanceStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EIJInstanceStorage.h; sourceTree = "<group>"; };
+		569EA4F82ADFFA3F003FBB7B /* EIJBlockInvoker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EIJBlockInvoker.m; sourceTree = "<group>"; };
+		569EA4F92ADFFA3F003FBB7B /* EIJTransientStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EIJTransientStorage.h; sourceTree = "<group>"; };
+		569EA4FA2ADFFA3F003FBB7B /* EIJServiceKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EIJServiceKey.h; sourceTree = "<group>"; };
+		569EA4FB2ADFFA3F003FBB7B /* EIJStrongStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EIJStrongStorage.h; sourceTree = "<group>"; };
+		569EA4FC2ADFFA3F003FBB7B /* EIJRegister.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EIJRegister.h; sourceTree = "<group>"; };
+		569EA4FD2ADFFA3F003FBB7B /* EIJWeakStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EIJWeakStorage.m; sourceTree = "<group>"; };
+		569EA4FE2ADFFA3F003FBB7B /* EIJContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EIJContainer.m; sourceTree = "<group>"; };
+		569EA4FF2ADFFA3F003FBB7B /* EIJServiceEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EIJServiceEntry.m; sourceTree = "<group>"; };
+		569EA5002ADFFA3F003FBB7B /* EIJBlockInvoker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EIJBlockInvoker.h; sourceTree = "<group>"; };
+		569EA5012ADFFA3F003FBB7B /* EIJResolver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EIJResolver.h; sourceTree = "<group>"; };
+		569EA5022ADFFA3F003FBB7B /* EIJServiceKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EIJServiceKey.m; sourceTree = "<group>"; };
+		569EA5032ADFFA3F003FBB7B /* EIJTransientStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EIJTransientStorage.m; sourceTree = "<group>"; };
+		569EA5152ADFFAF3003FBB7B /* TestClassA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestClassA.h; sourceTree = "<group>"; };
+		569EA5162ADFFAF3003FBB7B /* TestClassA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestClassA.m; sourceTree = "<group>"; };
+		569EA5182ADFFAFF003FBB7B /* TestClassB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestClassB.h; sourceTree = "<group>"; };
+		569EA5192ADFFAFF003FBB7B /* TestClassB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestClassB.m; sourceTree = "<group>"; };
+		569EA51B2ADFFB0D003FBB7B /* TestClassC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestClassC.h; sourceTree = "<group>"; };
+		569EA51C2ADFFB0D003FBB7B /* TestClassC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestClassC.m; sourceTree = "<group>"; };
+		569EA51E2ADFFB17003FBB7B /* TestClassD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestClassD.h; sourceTree = "<group>"; };
+		569EA51F2ADFFB17003FBB7B /* TestClassD.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestClassD.m; sourceTree = "<group>"; };
+		569EA5212ADFFB20003FBB7B /* TestClassE.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestClassE.h; sourceTree = "<group>"; };
+		569EA5222ADFFB20003FBB7B /* TestClassE.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestClassE.m; sourceTree = "<group>"; };
+		569EA5242ADFFB3A003FBB7B /* TestProtocolA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestProtocolA.h; sourceTree = "<group>"; };
+		569EA5252ADFFB44003FBB7B /* TestProtocolB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestProtocolB.h; sourceTree = "<group>"; };
+		569EA5262ADFFB4D003FBB7B /* TestProtocolC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestProtocolC.h; sourceTree = "<group>"; };
+		569EA5272ADFFB54003FBB7B /* TestProtocolD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestProtocolD.h; sourceTree = "<group>"; };
+		569EA5282ADFFB5C003FBB7B /* TestProtocolE.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestProtocolE.h; sourceTree = "<group>"; };
+		569EA5292AE676C2003FBB7B /* EIJSynchronizedResolver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EIJSynchronizedResolver.h; sourceTree = "<group>"; };
+		569EA52A2AE676C2003FBB7B /* EIJSynchronizedResolver.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EIJSynchronizedResolver.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		569EA4D72ADFF9DE003FBB7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		569EA4DF2ADFF9DE003FBB7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				569EA4E32ADFF9DE003FBB7B /* EasyInject.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		569EA4D02ADFF9DE003FBB7B = {
+			isa = PBXGroup;
+			children = (
+				569EA4DC2ADFF9DE003FBB7B /* EasyInject */,
+				569EA4E62ADFF9DE003FBB7B /* EasyInjectTests */,
+				569EA4DB2ADFF9DE003FBB7B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		569EA4DB2ADFF9DE003FBB7B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				569EA4DA2ADFF9DE003FBB7B /* EasyInject.framework */,
+				569EA4E22ADFF9DE003FBB7B /* EasyInjectTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		569EA4DC2ADFF9DE003FBB7B /* EasyInject */ = {
+			isa = PBXGroup;
+			children = (
+				569EA4DD2ADFF9DE003FBB7B /* EasyInject.h */,
+				569EA4F22ADFFA3F003FBB7B /* Sources */,
+			);
+			path = EasyInject;
+			sourceTree = "<group>";
+		};
+		569EA4E62ADFF9DE003FBB7B /* EasyInjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				569EA4E72ADFF9DE003FBB7B /* EasyInjectTests.m */,
+				569EA5152ADFFAF3003FBB7B /* TestClassA.h */,
+				569EA5162ADFFAF3003FBB7B /* TestClassA.m */,
+				569EA5182ADFFAFF003FBB7B /* TestClassB.h */,
+				569EA5192ADFFAFF003FBB7B /* TestClassB.m */,
+				569EA51B2ADFFB0D003FBB7B /* TestClassC.h */,
+				569EA51C2ADFFB0D003FBB7B /* TestClassC.m */,
+				569EA51E2ADFFB17003FBB7B /* TestClassD.h */,
+				569EA51F2ADFFB17003FBB7B /* TestClassD.m */,
+				569EA5212ADFFB20003FBB7B /* TestClassE.h */,
+				569EA5222ADFFB20003FBB7B /* TestClassE.m */,
+				569EA5242ADFFB3A003FBB7B /* TestProtocolA.h */,
+				569EA5252ADFFB44003FBB7B /* TestProtocolB.h */,
+				569EA5262ADFFB4D003FBB7B /* TestProtocolC.h */,
+				569EA5272ADFFB54003FBB7B /* TestProtocolD.h */,
+				569EA5282ADFFB5C003FBB7B /* TestProtocolE.h */,
+			);
+			path = EasyInjectTests;
+			sourceTree = "<group>";
+		};
+		569EA4F22ADFFA3F003FBB7B /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				569EA4F52ADFFA3F003FBB7B /* EIJContainer.h */,
+				569EA4FE2ADFFA3F003FBB7B /* EIJContainer.m */,
+				569EA4FC2ADFFA3F003FBB7B /* EIJRegister.h */,
+				569EA5012ADFFA3F003FBB7B /* EIJResolver.h */,
+				569EA4FA2ADFFA3F003FBB7B /* EIJServiceKey.h */,
+				569EA5022ADFFA3F003FBB7B /* EIJServiceKey.m */,
+				569EA4F42ADFFA3F003FBB7B /* EIJServiceEntry.h */,
+				569EA4FF2ADFFA3F003FBB7B /* EIJServiceEntry.m */,
+				569EA4F72ADFFA3F003FBB7B /* EIJInstanceStorage.h */,
+				569EA4F92ADFFA3F003FBB7B /* EIJTransientStorage.h */,
+				569EA5032ADFFA3F003FBB7B /* EIJTransientStorage.m */,
+				569EA4FB2ADFFA3F003FBB7B /* EIJStrongStorage.h */,
+				569EA4F32ADFFA3F003FBB7B /* EIJStrongStorage.m */,
+				569EA4F62ADFFA3F003FBB7B /* EIJWeakStorage.h */,
+				569EA4FD2ADFFA3F003FBB7B /* EIJWeakStorage.m */,
+				569EA5002ADFFA3F003FBB7B /* EIJBlockInvoker.h */,
+				569EA4F82ADFFA3F003FBB7B /* EIJBlockInvoker.m */,
+				569EA5292AE676C2003FBB7B /* EIJSynchronizedResolver.h */,
+				569EA52A2AE676C2003FBB7B /* EIJSynchronizedResolver.m */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		569EA4D52ADFF9DE003FBB7B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				569EA4E92ADFF9DE003FBB7B /* EasyInject.h in Headers */,
+				569EA50D2ADFFA3F003FBB7B /* EIJRegister.h in Headers */,
+				569EA5122ADFFA3F003FBB7B /* EIJResolver.h in Headers */,
+				569EA5062ADFFA3F003FBB7B /* EIJContainer.h in Headers */,
+				569EA50B2ADFFA3F003FBB7B /* EIJServiceKey.h in Headers */,
+				569EA5052ADFFA3F003FBB7B /* EIJServiceEntry.h in Headers */,
+				569EA5082ADFFA3F003FBB7B /* EIJInstanceStorage.h in Headers */,
+				569EA50A2ADFFA3F003FBB7B /* EIJTransientStorage.h in Headers */,
+				569EA50C2ADFFA3F003FBB7B /* EIJStrongStorage.h in Headers */,
+				569EA5072ADFFA3F003FBB7B /* EIJWeakStorage.h in Headers */,
+				569EA52B2AE676C2003FBB7B /* EIJSynchronizedResolver.h in Headers */,
+				569EA5112ADFFA3F003FBB7B /* EIJBlockInvoker.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		569EA4D92ADFF9DE003FBB7B /* EasyInject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 569EA4EC2ADFF9DE003FBB7B /* Build configuration list for PBXNativeTarget "EasyInject" */;
+			buildPhases = (
+				569EA4D52ADFF9DE003FBB7B /* Headers */,
+				569EA4D62ADFF9DE003FBB7B /* Sources */,
+				569EA4D72ADFF9DE003FBB7B /* Frameworks */,
+				569EA4D82ADFF9DE003FBB7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EasyInject;
+			productName = EasyInject;
+			productReference = 569EA4DA2ADFF9DE003FBB7B /* EasyInject.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		569EA4E12ADFF9DE003FBB7B /* EasyInjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 569EA4EF2ADFF9DE003FBB7B /* Build configuration list for PBXNativeTarget "EasyInjectTests" */;
+			buildPhases = (
+				569EA4DE2ADFF9DE003FBB7B /* Sources */,
+				569EA4DF2ADFF9DE003FBB7B /* Frameworks */,
+				569EA4E02ADFF9DE003FBB7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				569EA4E52ADFF9DE003FBB7B /* PBXTargetDependency */,
+			);
+			name = EasyInjectTests;
+			productName = EasyInjectTests;
+			productReference = 569EA4E22ADFF9DE003FBB7B /* EasyInjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		569EA4D12ADFF9DE003FBB7B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					569EA4D92ADFF9DE003FBB7B = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					569EA4E12ADFF9DE003FBB7B = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 569EA4D42ADFF9DE003FBB7B /* Build configuration list for PBXProject "EasyInject" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 569EA4D02ADFF9DE003FBB7B;
+			productRefGroup = 569EA4DB2ADFF9DE003FBB7B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				569EA4D92ADFF9DE003FBB7B /* EasyInject */,
+				569EA4E12ADFF9DE003FBB7B /* EasyInjectTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		569EA4D82ADFF9DE003FBB7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		569EA4E02ADFF9DE003FBB7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		569EA4D62ADFF9DE003FBB7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				569EA5132ADFFA3F003FBB7B /* EIJServiceKey.m in Sources */,
+				569EA5142ADFFA3F003FBB7B /* EIJTransientStorage.m in Sources */,
+				569EA50F2ADFFA3F003FBB7B /* EIJContainer.m in Sources */,
+				569EA5042ADFFA3F003FBB7B /* EIJStrongStorage.m in Sources */,
+				569EA5102ADFFA3F003FBB7B /* EIJServiceEntry.m in Sources */,
+				569EA50E2ADFFA3F003FBB7B /* EIJWeakStorage.m in Sources */,
+				569EA52C2AE676C2003FBB7B /* EIJSynchronizedResolver.m in Sources */,
+				569EA5092ADFFA3F003FBB7B /* EIJBlockInvoker.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		569EA4DE2ADFF9DE003FBB7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				569EA51D2ADFFB0D003FBB7B /* TestClassC.m in Sources */,
+				569EA5172ADFFAF3003FBB7B /* TestClassA.m in Sources */,
+				569EA5202ADFFB17003FBB7B /* TestClassD.m in Sources */,
+				569EA51A2ADFFAFF003FBB7B /* TestClassB.m in Sources */,
+				569EA5232ADFFB20003FBB7B /* TestClassE.m in Sources */,
+				569EA4E82ADFF9DE003FBB7B /* EasyInjectTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		569EA4E52ADFF9DE003FBB7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 569EA4D92ADFF9DE003FBB7B /* EasyInject */;
+			targetProxy = 569EA4E42ADFF9DE003FBB7B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		569EA4EA2ADFF9DE003FBB7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		569EA4EB2ADFF9DE003FBB7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		569EA4ED2ADFF9DE003FBB7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = T7ZGALPKGL;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuhan.EasyInject;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		569EA4EE2ADFF9DE003FBB7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = T7ZGALPKGL;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuhan.EasyInject;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		569EA4F02ADFF9DE003FBB7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T7ZGALPKGL;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuhan.EasyInjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		569EA4F12ADFF9DE003FBB7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T7ZGALPKGL;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuhan.EasyInjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		569EA4D42ADFF9DE003FBB7B /* Build configuration list for PBXProject "EasyInject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				569EA4EA2ADFF9DE003FBB7B /* Debug */,
+				569EA4EB2ADFF9DE003FBB7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		569EA4EC2ADFF9DE003FBB7B /* Build configuration list for PBXNativeTarget "EasyInject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				569EA4ED2ADFF9DE003FBB7B /* Debug */,
+				569EA4EE2ADFF9DE003FBB7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		569EA4EF2ADFF9DE003FBB7B /* Build configuration list for PBXNativeTarget "EasyInjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				569EA4F02ADFF9DE003FBB7B /* Debug */,
+				569EA4F12ADFF9DE003FBB7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 569EA4D12ADFF9DE003FBB7B /* Project object */;
+}
